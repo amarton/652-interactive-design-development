@@ -87,21 +87,20 @@ What can the information about enrollment by race in the spreadsheet tell us?
 	- Show how to sort by state
 	- Show count, Sum, Average in bottom bar
 
+- Filter on Public / Private and State to see public school shootings in Maryland
 
-Filter on Public / Private and State to see public school shootings in Maryland
+- Make a pivot table and run through the questions above. Then pass to them and have them duplicate the processes (or most of them)
 
-Make a pivot table and run through the questions above. Then pass to them and have them duplicate the processes (or most of them)
+- Talk through how to combine shooter 1 and shooter 2 data
+	- Shooter 2 only has max 5 entries
+	- Shooter 1 is also incomplete
+	- Combine and say “Shooter (race / age / etc) where known
 
-Talk through how to combine shooter 1 and shooter 2 data
-		Shooter 2 only has max 5 entries
-		Shooter 1 is also incomplete
-		Combine and say “Shooter (race / age / etc) where known
+- Review the data. What seems interesting?
 
-Review the data. What seems interesting?
-
-Create a graphics plan based on what is interesting in the data
+- Create a graphics plan based on what is interesting in the data
 
 ++
 
-* Create a basic fusion table with the data
+- * Create a basic fusion table with the data
 https://fusiontables.google.com/DataSource?docid=1M2LpXqO8aiHqUl2I2ghz74evVxDae_l9q6q3UG-Z#map:id=3
