@@ -1,6 +1,6 @@
 <h1>652: Data analysis workshop & notes</h1>
 
-<strong>Data</strong>
+<h2>Data</h2>
 
 Washington Post School Shootings Data: (main data source)
 https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/?utm_term=.89d6a5f7acfa
@@ -22,7 +22,8 @@ School Shootings Database
 https://www.schoolshootingdatabase.com/
 
 
-Media
+<h2>Media</h2>
+
 Why school shooting data is messy
 https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/
 
