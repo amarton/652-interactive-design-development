@@ -69,23 +69,23 @@ Combine results into three categories and figure out by %
 
 What can the information about enrollment by race in the spreadsheet tell us?
 
-Outline of workshop
-Data workshop
+<h2>Outline of workshop: Data workshop</h2>
 
-Review data
+-Review data
 	Sources
 	Caveats
 	Read ReadMe
 	Dictionary
 	Columns
-Look at what the Post did
-	Talk about school shooting data in general
-	Do research about the topic so you can make informed decisions.
-	Read the Atlantic article
 
-Work on the the data
-Show how to sort by state
- 	Show count, Sum, Average in bottom bar
+-Look at what the Post did
+	-Talk about school shooting data in general
+	-Do research about the topic so you can make informed decisions.
+	-Read the Atlantic article
+
+-Work on the the data
+	-Show how to sort by state
+	-Show count, Sum, Average in bottom bar
 
 Filter on Public / Private and State to see public school shootings in Maryland
 
