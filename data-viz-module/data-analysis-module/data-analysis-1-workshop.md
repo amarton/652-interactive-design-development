@@ -71,17 +71,13 @@ What can the information about enrollment by race in the spreadsheet tell us?
 
 <h2>Outline of workshop: Data workshop</h2>
 
--Review data
+- Review data
 
-	Sources
-
-	Caveats
-
-	Read ReadMe
-
-	Dictionary
-
-	Columns
+	- Sources
+	- Caveats
+	- Read ReadMe
+	- Dictionary
+	- Columns
 
 - Look at what the Post did
 
