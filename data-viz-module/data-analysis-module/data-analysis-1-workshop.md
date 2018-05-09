@@ -83,19 +83,19 @@ What can the information about enrollment by race in the spreadsheet tell us?
 
 	Columns
 
--Look at what the Post did
+- Look at what the Post did
 
-	-Talk about school shooting data in general
+	- Talk about school shooting data in general
 
-	-Do research about the topic so you can make informed decisions.
+	- Do research about the topic so you can make informed decisions.
 
-	-Read the Atlantic article
+	- Read the Atlantic article
 
--Work on the the data
+- Work on the the data
 
-	-Show how to sort by state
+	- Show how to sort by state
 
-	-Show count, Sum, Average in bottom bar
+	- Show count, Sum, Average in bottom bar
 
 Filter on Public / Private and State to see public school shootings in Maryland
 
