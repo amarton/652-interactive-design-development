@@ -5,11 +5,12 @@
 Builds on Data Analysis workshop:<br>
 https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/edit#heading=h.a4no13k76bpe
 
+
 Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
 
 <h2>Graphics</h2>
-<b>Graphic:</b> Line chart of # of incidents per year<br>
+Graphic: Line chart of # of incidents per year<br>
 Graphic: Shooting type bar chart<br>
 Graphic: Pie chart showing yes / no resource office present<br>
 Graphic: Donut chart comparing races<br>
@@ -22,21 +23,21 @@ Graphic: Bar chart showing age distribution<br><br>
 
 <h2>Outline of workshop: Infographics I workshop</h2>
 
-Overview of C3 and how it works<br>
+- Overview of C3 and how it works<br>
 
-Create a simple chart and add to the page<br>
+- Create a simple chart and add to the page<br>
 	- Add a headline and source
 
-Create another chart and add to the page<br>
+- Create another chart and add to the page<br>
 	- Show how to add multiple charts to one page
 
-Change color<br>
+- Change color<br>
 	- Show how to google C3 changes: http://c3js.org/samples/data_color.html
 	- Show how to set up a color pattern and re=use throughout
 
-Add to a bootstrap page<br>
+- Add to a bootstrap page<br>
 	- Set up basic template
 
-Run through the other infographics above<br><br>
+- Run through the other infographics above<br><br>
 
 (EXTRA ** Discuss WaPo charts)
