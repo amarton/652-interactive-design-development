@@ -1,57 +1,48 @@
-652: Data visualization II workshop & notes
-Data
-Builds on Data Analysis workshop:
+<h1>652: Data visualization II workshop & notes</h1>
+
+<h2>Data</h2>
+Builds on Data Analysis workshop:<br>
 https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/edit#heading=h.a4no13k76bpe
 
-& Data viz workshop I
+<br>
+& Data viz workshop I<br>
 https://docs.google.com/document/d/1iBzPYPaw-WjgH9qmSQNBdWzY0baItG_SBPxGcf4EFKc/edit#heading=h.tmn8cz9kzs3w
 
-Here is worked data from Washington Post data set: https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
+<br>
+Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
-Graphics
+<h2>Graphics</h2>
 
-Graphic: Map of shootings
+Graphic: Map of shootings<br>
+Graphic: Timeline.JS<br>
+Graphic: storymap.js<br>
 
-Graphic: Timeline.JS
 
-Graphic: storymap.js
+<h2>Outline of workshop: Infographics II workshop</h2>
 
-Outline of workshop
+- Take a look at some examples of timelines
 
-Infographics II workshop
+- Format data for use. Talk about what I collected, how and why.
+	- Data sources and credit.
+	- Decided to use photos of victims
+	- Decided to use links to NYT
 
-Take a look at some examples of timelines
-
-Format data for use. Talk about what I collected, how and why.
-	Data sources and credit.
-	Decided to use photos of victims
-	Decided to use links to NYT
-
-Create Timeline.js
-https://timeline.knightlab.com/
-	Look at examples
-	Publish a sample worksheet
-	Start populating
-https://docs.google.com/spreadsheets/u/1/d/16vvHx7X3uBGGy6njjNy3CE4nbQK6peJrQyxARfUZgF4/edit?usp=drive_web&ouid=113782786248148897859
+- Create Timeline.js: https://timeline.knightlab.com/
+	- Look at examples
+	- Publish a sample worksheet
+	- Start populating: https://docs.google.com/spreadsheets/u/1/d/16vvHx7X3uBGGy6njjNy3CE4nbQK6peJrQyxARfUZgF4/edit?usp=drive_web&ouid=113782786248148897859
 https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=16vvHx7X3uBGGy6njjNy3CE4nbQK6peJrQyxARfUZgF4&font=Default&lang=en&initial_zoom=2&height=650
-	Add some background images and colors
+  - Add some background images and colors
 
-Storymaps.js
-	https://storymap.knightlab.com/
-	Look at examples
-	Set one up
-	https://storymap.knightlab.com/edit/?id=school-shootings-since-columbine
+- Storymaps.js: https://storymap.knightlab.com/
+	- Look at examples
+	- Set one up: https://storymap.knightlab.com/edit/?id=school-shootings-since-columbine
 https://uploads.knightlab.com/storymapjs/126acb1e23b8e79dcdca344f8034e818/school-shootings-since-columbine/index.html
 
-
-Fusion tables 2:
-https://fusiontables.google.com/DataSource?docid=1M2LpXqO8aiHqUl2I2ghz74evVxDae_l9q6q3UG-Z#map:id=3
+- Fusion tables 2: https://fusiontables.google.com/DataSource?docid=1M2LpXqO8aiHqUl2I2ghz74evVxDae_l9q6q3UG-Z#map:id=3
 
 
-
-
-
-Timeline.JS / Storymap notes
+<h2>Timeline.JS / Storymap notes</h2>
 
 Sources:
 
