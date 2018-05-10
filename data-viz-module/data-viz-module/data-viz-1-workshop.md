@@ -9,7 +9,7 @@ https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/
 Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
 
-<h2>HTML PAGES / ASSETS</h2>
+<h2>HTML Pages / Assets</h2>
 
 C3 Graphics (a few initial graphics)<br>
 https://github.com/amarton/652-interactive-design-development/blob/master/data-viz-module/data-viz-module/c3-graphics.html
