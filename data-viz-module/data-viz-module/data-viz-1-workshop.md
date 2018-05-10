@@ -5,7 +5,7 @@
 Builds on Data Analysis workshop:<br>
 https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/edit#heading=h.a4no13k76bpe
 
-<br>
+<br><br>
 Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
 
