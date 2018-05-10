@@ -9,6 +9,21 @@ https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/
 Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
 
+<h2>HTML PAGES / ASSETS</h2>
+
+C3 Graphics (a few initial graphics)<br>
+https://github.com/amarton/652-interactive-design-development/blob/master/data-viz-module/data-viz-module/c3-graphics.html
+
+Template (includes bootstrap and C3)<br>
+https://github.com/amarton/652-interactive-design-development/blob/master/data-viz-module/data-viz-module/template.html
+
+Index (finished page using template above)<br>
+https://github.com/amarton/652-interactive-design-development/blob/master/data-viz-module/data-viz-module/index.html
+
+Some colors<br>
+https://github.com/amarton/652-interactive-design-development/blob/master/data-viz-module/data-viz-module/some-colors.png
+
+
 <h2>Graphics</h2>
 Graphic: Line chart of # of incidents per year<br>
 Graphic: Shooting type bar chart<br>
