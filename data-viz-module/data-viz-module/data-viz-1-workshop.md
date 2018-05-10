@@ -2,44 +2,41 @@
 
 
 <h2>Data</h2>
-Builds on Data Analysis workshop:
+Builds on Data Analysis workshop:<br>
 https://docs.google.com/document/d/1eSf8ztFxb5qir3S92gGzYfE1fAiPE2BdsxeMZxnBm3Q/edit#heading=h.a4no13k76bpe
 
-Here is worked data from Washington Post data set: https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
+Here is worked data from Washington Post data set:<br> https://github.com/amarton/652-interactive-design-development/tree/master/data-viz-module/data-school-shootings
 
 
 <h2>Graphics</h2>
-<b>Graphic:</b> Line chart of # of incidents per year
-Graphic: Shooting type bar chart
-Graphic: Pie chart showing yes / no resource office present
-Graphic: Donut chart comparing races
-Graphic: City v rural?
-Graphic: Killed / injured by year multiple line or bar chart
-Graphic: Bar chart showing age distribution
+<b>Graphic:</b> Line chart of # of incidents per year<br>
+Graphic: Shooting type bar chart<br>
+Graphic: Pie chart showing yes / no resource office present<br>
+Graphic: Donut chart comparing races<br>
+Graphic: City v rural?<br>
+Graphic: Killed / injured by year multiple line or bar chart<br>
+Graphic: Bar chart showing age distribution<br><br>
 
 (Graphic: Map of shootings / Timeline.JS / storymap.js)
 
 
-Outline of workshop
+<h2>Outline of workshop: Infographics I workshop</h2>
 
+Overview of C3 and how it works<br>
 
-Infographics I workshop
+Create a simple chart and add to the page<br>
+	- Add a headline and source
 
-Start with an overview of C3 and how it works
+Create another chart and add to the page<br>
+	- Show how to add multiple charts to one page
 
-Create a simple chart and add to the page
-	Add a headline and source
+Change color<br>
+	- Show how to google C3 changes: http://c3js.org/samples/data_color.html
+	- Show how to set up a color pattern and re=use throughout
 
-Create another chart and add to the page
-	Show how to add multiple charts to one page
+Add to a bootstrap page<br>
+	- Set up basic template
 
-Change color
-	Show how to google C3 changes
-	http://c3js.org/samples/data_color.html
-	Show how to set up a color pattern and re=use throughout
-Add to a bootstrap page
-	Set up basic template
-
-Run through the other infographics above
+Run through the other infographics above<br><br>
 
 (EXTRA ** Discuss WaPo charts)

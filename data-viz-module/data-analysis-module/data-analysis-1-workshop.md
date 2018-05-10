@@ -8,32 +8,32 @@ https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/?ut
 https://github.com/washingtonpost/data-school-shootings
 
 
-Stanford Mass Shootings in America Data:
+Stanford Mass Shootings in America Data:<br>
 https://library.stanford.edu/projects/mass-shootings-america
 https://github.com/StanfordGeospatialCenter/MSA
 
-Mother Jones US Mass Shootings Data
+Mother Jones US Mass Shootings Data<br>
 https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/
 
-Mass Shootings tracker
+Mass Shootings tracker<br>
 https://www.massshootingtracker.org/data
 
-School Shootings Database
+School Shootings Database<br>
 https://www.schoolshootingdatabase.com/
 
 
 <h2>Media</h2>
 
-Why school shooting data is messy
+Why school shooting data is messy<br>
 https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/
 
-Pew Research Center study about effects of school shootings
+Pew Research Center study about effects of school shootings<br>
 http://www.pewresearch.org/fact-tank/2018/04/18/a-majority-of-u-s-teens-fear-a-shooting-could-happen-at-their-school-and-most-parents-share-their-concern/
 
-List of school shootings in the US
+List of school shootings in the US<br>
 https://en.wikipedia.org/wiki/List_of_school_shootings_in_the_United_States
 
-John Jay Database development
+John Jay Database development<br>
 https://thejournal.com/articles/2018/03/20/john-jay-college-researchers-developing-open-source-database-of-school-shootings.aspx
 
 
@@ -51,11 +51,11 @@ How do the  types of shootings break down?
 
 How often was a school resource officer present?
 
-Info about shooters
-What was the race of shooters? Were most shooters white?
-Were most shooters men?
-?? What is the median age of shooters ??
-What is the age distribution of shooters?
+Info about shooters:
+- What was the race of shooters? Were most shooters white?
+- Were most shooters men?
+- ?? What is the median age of shooters ??
+- What is the age distribution of shooters?
 
 Are there any particular cities that stick out as having had a lot of school shootings? What about states?
 
