@@ -2,7 +2,7 @@
 
 <h2>Data</h2>
 
-Washington Post School Shootings Data: (main data source)
+Washington Post School Shootings Data: (main data source)<br>
 https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/?utm_term=.89d6a5f7acfa
 
 https://github.com/washingtonpost/data-school-shootings
