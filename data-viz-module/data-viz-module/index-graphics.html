@@ -94,12 +94,21 @@
 
     <br><hr><br>
 
+        <div id="graphic-container">
+          <h2>Age distribution of school shooters</h2>
+          <p>Average age is 19-years-old</p>
+          <div id="chart7"></div>
+          <em>Source: Data collected by The Washington Post</em>
+        </div>
+
+    <br><hr><br>
+
     <!-- map -->
     <div id="graphic-container">
       <h2>School shootings map</h2>
       <p>This map displays every school shooting incident in the United States since Columbine.</p>
 
-      <div id="chart7">
+      <div id="chart8">
         <iframe width="800" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col40+from+1M2LpXqO8aiHqUl2I2ghz74evVxDae_l9q6q3UG-Z&amp;viz=MAP&amp;h=false&amp;lat=40.373499239212826&amp;lng=-94.75785446875&amp;t=1&amp;z=4&amp;l=col40&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe>
       </div>
       <em>Source: Data collected by The Washington Post</em>
@@ -111,7 +120,7 @@
     <div id="graphic-container">
       <h2>Timeline: Worst school shootings since Columbine</h2>
 
-      <div id="chart8">
+      <div id="chart9">
         <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=16vvHx7X3uBGGy6njjNy3CE4nbQK6peJrQyxARfUZgF4&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
       </div>
       <em>Source: The Washington Post, Stanford University</em>
@@ -123,7 +132,7 @@
     <div id="graphic-container">
       <h2>Story map: Worst school shootings since Columbine</h2>
 
-      <div id="chart9">
+      <div id="chart10">
         <iframe src="https://uploads.knightlab.com/storymapjs/126acb1e23b8e79dcdca344f8034e818/school-shootings-since-columbine/index.html" frameborder="0" width="100%" height="800"></iframe>          </div>
         <em>Source: The Washington Post, Stanford University</em>
       </div>
@@ -166,6 +175,9 @@
           pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
         }
       });
+
+
+
 
       //CHART 3
       var chart3 = c3.generate({
@@ -251,13 +263,60 @@
         }
       });
 
+      //CHART 7
+      var chart2 = c3.generate({
+        bindto: '#chart7',
+        data: {
+          columns: [
+            ['6',	2],
+            ['7',	1],
+            ['9',	1],
+            ['11',	2],
+            ['12',	4],
+            ['13',	7],
+            ['14',	24],
+            ['15',	32],
+            ['16',	25],
+            ['17',	28],
+            ['18',	11],
+            ['19',	8],
+            ['20',	4],
+            ['21',	3],
+            ['22',	1],
+            ['23',	2],
+            ['28',	5],
+            ['30',	1],
+            ['32',	2],
+            ['33',	1],
+            ['38',	1],
+            ['39',	1],
+            ['41',	2],
+            ['42',	1],
+            ['44',	2],
+            ['45',	1],
+            ['47',	1],
+            ['48',	1],
+            ['49',	1],
+            ['50',	1],
+            ['53',	3],
+            ['56',	1]
+          ],
+          type: 'bar'
+        },
+        color: {
+          pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+        }
+      });
+
+
+
       </script>
 
 
       <!-- /End main content container -->
     </div>
 
- 
+
     <!-- Call needed JavaScript libraries -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
