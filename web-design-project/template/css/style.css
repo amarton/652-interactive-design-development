@@ -2,6 +2,14 @@ BODY {
   font-family: 'PT Serif', serif;
 }
 
+.bg-dark {
+  background:#000 !important;
+}
+
+ul.navbar-nav {
+  margin-left:50%;
+}
+
 .container {
   text-align:center;
 }
@@ -12,29 +20,38 @@ p{
 }
 
 .navbar {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
 .hero-image{
     width:100%;
+    max-width:900px;
 }
 
 .hed {
   font-size:3em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+
+.subhed {
+  font-size:1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+  margin-top:-25px;
 }
 
 .byline {
   font-size:1em;
   text-transform:uppercase;
   margin-top:-10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
 .intro-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size:1.25em;
   max-width:800px;
   margin:0 auto;
@@ -44,7 +61,7 @@ p{
 
 .chapter-head {
   font-size:2em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-top:20px;
 }
 
@@ -60,7 +77,7 @@ p{
   max-width:900px;
   margin:0 auto;
   padding-bottom:30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color:#999;
 }
 
@@ -73,8 +90,32 @@ p{
 }
 
 .footer p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff
+}
+
+.red {
+  color: #e0162b;
+}
+
+.blue {
+  color: #0052a5;
+}
+
+.star-bar {
+text-align:center;
+}
+
+
+.star {
+  width:15px;
+  margin-left:10px;
+}
+
+.star-top {
+  width:15px;
+  margin-right:5px;
+
 }
 
 @media(max-width:550px) {
