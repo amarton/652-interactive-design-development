@@ -21,6 +21,23 @@ BODY {
   text-align:center;
 }
 
+a:link {
+  color: #e0162b;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #0052a5;
+  text-decoration:none;
+
+}
+
+
+a:visited {
+  color: #999;
+}
+
+
 p{
   text-align:left;
   line-height:180%;
@@ -112,11 +129,19 @@ ul.navbar-nav {
   font-family: 'Montserrat', sans-serif;
   padding-top:20px;
   font-weight:700;
+  width:100%;
 }
 
 .stack-image {
   width:100%;
   max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+.small-image {
+  width:100%;
+  max-width:500px;
   margin:0 auto;
   padding-top:30px;
 }
@@ -130,14 +155,39 @@ ul.navbar-nav {
   color:#999;
 }
 
+.caption-small {
+  width:100%;
+  max-width:500px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+
 .graphic-container {
   padding-top:30px;
   padding-bottom:30px;
   border-top:1px solid #cdcdcd;
   border-bottom:1px solid #cdcdcd;
   font-family: 'Montserrat', sans-serif;
+  margin:0 auto;
 }
 
+.graphic-container h2 {
+  font-size:2em;
+}
+
+
+.about {
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  background:#e8e8e8;
+  padding:10px;
+  margin-top:25px;
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* 5. Footer */
 
