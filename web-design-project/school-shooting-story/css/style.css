@@ -137,6 +137,7 @@ ul.navbar-nav {
   max-width:900px;
   margin:0 auto;
   padding-top:30px;
+  height:100%;
 }
 
 .small-image {
