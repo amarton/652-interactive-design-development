@@ -15,8 +15,11 @@ H1 {
 
  /* Section titles */
 H2 {
-  font-size:2em;
-  color:#33485e;
+  font-size:1.5em;
+  background:#33485e;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight:400;
 }
 
  /* My Title */
@@ -24,6 +27,7 @@ strong {
   color:#33485e;
   text-transform: uppercase;
   text-align:center;
+  font-size:1.5em;
 }
 
 /* Job Title */
