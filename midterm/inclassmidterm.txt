@@ -1,0 +1,85 @@
+JOUR352/652 Mid-Term Exam (In-Class Portion)
+
+Directions:
+
+1.  The only thing you should have open on your desktop is this text file in SUBLIME TEXT, not Atom. Do not save it in another format. 
+2.  Put away all books, papers, notes, limbs with hints scrawled in pen.  Put away all electronic devices. Close all browsers and all other programs. Do not turn on syntax highlighting.
+3. You may use your brain.
+4. Don't talk with, send signals through blinking, connect telepathically or otherwise communicate with your neighbors.
+4.  Answer every question in the space provided.
+5.  If you don't understand what I'm asking for on a question, ask me.
+
+****
+
+20 QUESTIONS
+
+1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
+
+Google is the best search engine in the world.
+
+2.  Describe the purpose of a DIV tag.
+
+3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
+
+4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
+
+5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
+
+6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
+
+7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
+
+8.  In the space below, put a DIV tag with a class of grapes and a class of purple.
+
+9.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
+
+10. In the space below, write the correct CSS code to target a DIV with an ID of name.  Make the color of the text black (#000000).
+
+11. You are building an html page and you only have one menu. Would you assign the DIV that contains it an ID or a class? Why?
+
+12.  What is the name of the tag that is used to connect a stylesheet to an HTML document?  You don't have to write out all the code to connect the stylesheet, just write what the tag is called.
+
+13.  What is the name of the tag that is used to connect a file containing JavaScript to our HTML document? You don't have to write out all the code to connect the file, just tell me what the tag is called.
+
+13.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
+
+14.  What tag would we use to embed a YouTube video or a timeline from Timeline.JS? Just give me the name of the tag, you don't have to write out all the code.
+
+15.  Imagine that you want to link your HTML document, index.html, to a stylesheet, style.css.  Index.html is located inside a folder called site.  A folder called CSS is also located inside the folder called site. Style.css is located inside the folder called CSS. Write the "path" to the css file that would properly connect style.css to index.html.
+
+16.  Why do we use media queries?
+
+17.  In very basic terms, what does a javascript function do?
+
+18.  Properly indent the following HTML code:
+
+<div>
+<div>
+<ul>
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ul>
+</div>
+<div>
+<p>This is the bottom of the page.</p>
+</div>
+</div>
+
+19.  Fix the error in this code
+
+div {
+  font-weight: bold
+}
+
+20.  Do you now understand the following truths about building things for the Internet:
+--A central feature of learning to build things for the Internet is The Struggle. And The Struggle is real.
+--The Struggle does not mean you are bad at building things for the Internet. In fact, it means you are doing everything right. To borrow a phrase often used by web developers, The Struggle is a feature, not a bug. Keep struggling.
+--Building things for the Internet often mimics life: tedium and struggle and frustration, punctuated by moments of overwhelming joy when things go right.
+--The solutions to problems that arise when building things for the Internet are not always obvious.
+--A great way to solve your problems: transform your problems into questions you can Google.
+--Another great way: try a bunch of things until something works.
+--Another great way: Ask another human for help -- but only after you've done independent research and tried a bunch of things.
+--Lastly, building things for the Internet is not rocket science.  Anyone can do it and, yes, that means you.
+
+(Free hint: the only correct answer is yes).
