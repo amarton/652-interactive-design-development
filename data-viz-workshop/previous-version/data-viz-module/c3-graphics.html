@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <title>c3 Graphics</title>
+
+  <!-- Load c3.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.7/c3.min.css" rel="stylesheet">
+
+  <!-- Load d3.js and c3.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.7/c3.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- first graphic container-->
+  <div id="graphic-container">
+    <h2>Shootings by year</h2>
+    <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+    <div id="chart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><br>
+
+  <!-- second graphic container-->
+  <div id="graphic-container">
+    <h2>Shootings by type</h2>
+    <p>Targeted shootings are by far the most common, accounting for over 60 percent of school shootings by type.</p>
+    <div id="chart2"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+
+  <!-- c3 script-->
+  <script>
+
+  //CHART 1
+  var chart = c3.generate({
+    data: {
+      x: 'x',
+      columns: [
+        ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+        ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+      ]
+    }
+  });
+
+  //CHART 2
+  var chart2 = c3.generate({
+    bindto: '#chart2',
+    data: {
+      columns: [
+        ['Targeted', 130],
+        ['indiscriminate', 42],
+        ['Accidental', 25],
+        ['Targeted and indiscriminate', 5],
+        ['Public suicide', 4],
+        ['Unclear', 3],
+        ['hostage suicide', 2],
+        ['Accidental or targeted', 2],
+        ['Public suicide (attempted)', 1]
+      ],
+      type: 'bar'
+    }
+  });
+
+  </script>
+
+
+
+</body>
+</html>

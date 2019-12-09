@@ -1,0 +1,399 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Adam Marton</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="Adam Marton">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Load c3.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.7/c3.min.css" rel="stylesheet">
+
+    <!-- Load d3.js and c3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.7/c3.min.js"></script>
+
+    <!-- Load our CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<!-- Start container -->
+<div class="container">
+
+  <p class="text-center hed">School shootings in the United States</p>
+  <p class="text-center byline">By Adam Marton</p>
+
+  <!-- first graphic container-->
+  <div class="graphic-container">
+    <h2>Shootings by year</h2>
+    <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+    <div id="shootingsByYearChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+  <!-- END first graphic container-->
+
+  <br><hr><br>
+
+  <div class="graphic-container">
+    <h2>Shootings by type</h2>
+    <p>Targeted shootings are by far the most common, accounting for over 60 percent of school shootings by type.</p>
+    <div id="shootingsByTypeChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+  <div class="graphic-container">
+    <h2>How often were resource officers present?</h2>
+    <p>School resource officers were commonly not present at the scene of school shooting incidents.</p>
+    <div id="resourceOfficersChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+  <div class="graphic-container">
+    <h2>What race are school shooters likely to be?</h2>
+    <p>55 percent of school shooters are white.</p>
+    <div id="raceChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+  <div class="graphic-container">
+    <h2>Where do school shootings occur?</h2>
+    <p>47 percent of school shootings occur in areas labeled as cities.</p>
+    <div id="placeChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+  <div class="graphic-container">
+    <h2>Examining the carnage</h2>
+    <p>2012 was the deadliest year this century, with 32 fatalities. Incidents occured at Sandy Hook Elementary School in Newtown, Conn and Oikos University in Oakland, Calif. that year.</p>
+    <div id="killedChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+
+  <div class="graphic-container">
+    <h2>Examining the carnage 2</h2>
+    <p>2012 was the deadliest year this century, with 32 fatalities. Incidents occured at Sandy Hook Elementary School in Newtown, Conn and Oikos University in Oakland, Calif. that year.</p>
+    <div id="killedInjuredIncidentsChart"></div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+
+<!--
+      <div class="graphic-container">
+        <h2>Age distribution of school shooters</h2>
+        <p>Average age is 19-years-old</p>
+        <div id="ageChart"></div>
+        <em>Source: Data collected by The Washington Post</em>
+      </div>
+
+  <br><hr><br>
+
+
+-->
+
+  <!-- map -->
+  <div class="graphic-container">
+    <h2>School shootings map</h2>
+    <p>This map displays every school shooting incident in the United States since Columbine.</p>
+
+    <div id="chart8">
+      <iframe width="800" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col40+from+1M2LpXqO8aiHqUl2I2ghz74evVxDae_l9q6q3UG-Z&amp;viz=MAP&amp;h=false&amp;lat=40.373499239212826&amp;lng=-94.75785446875&amp;t=1&amp;z=4&amp;l=col40&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe>
+    </div>
+    <em>Source: Data collected by The Washington Post</em>
+  </div>
+
+  <br><hr><br>
+
+  <!-- timeline -->
+  <div class="graphic-container">
+    <h2>Timeline: Worst school shootings since Columbine</h2>
+
+    <div id="chart9">
+      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=16vvHx7X3uBGGy6njjNy3CE4nbQK6peJrQyxARfUZgF4&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+    </div>
+    <em>Source: The Washington Post, Stanford University</em>
+  </div>
+
+  <br><hr><br>
+
+  <!-- story map-->
+  <div class="graphic-container">
+    <h2>Story map: Worst school shootings since Columbine</h2>
+
+    <div id="chart10">
+      <iframe src="https://uploads.knightlab.com/storymapjs/126acb1e23b8e79dcdca344f8034e818/school-shootings-since-columbine/index.html" frameborder="0" width="100%" height="800"></iframe>          </div>
+      <em>Source: The Washington Post, Stanford University</em>
+    </div>
+
+
+    <!-- c3 script-->
+    <script>
+    //CHART 1
+    var chart = c3.generate({
+      bindto: '#shootingsByYearChart',
+      data: {
+        x: 'x',
+        columns: [
+          ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+                    ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+        ]
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+    //CHART 2
+    var chart2 = c3.generate({
+      bindto: '#shootingsByTypeChart',
+      data: {
+        columns: [
+          ['Targeted', 130],
+          ['indiscriminate', 42],
+          ['Accidental', 25],
+          ['Targeted and indiscriminate', 5],
+          ['Public suicide', 4],
+          ['Unclear', 3],
+          ['hostage suicide', 2],
+          ['Accidental or targeted', 2],
+          ['Public suicide (attempted)', 1]
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
+    });
+
+
+
+
+    //CHART 3
+    var chart3 = c3.generate({
+      bindto: '#resourceOfficersChart',
+      data: {
+        // iris data from R
+        columns: [
+          ['Present', 35],
+          ['Not present', 65],
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+    //CHART 4
+    var chart = c3.generate({
+      bindto: '#raceChart',
+      data: {
+        columns: [
+          ['Asian', 1],
+          ['American Indian', 3],
+          ['Black', 33],
+          ['Hispanic', 8],
+          ['White', 55]
+        ],
+        type : 'pie',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      donut: {
+        title: "Shooters by race"
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+     //CHART 5
+    var chart = c3.generate({
+      bindto: '#placeChart',
+      data: {
+        columns: [
+          ['City', 47],
+          ['Suburb', 27],
+          ['Town', 11],
+          ['Rural', 14]
+        ],
+        type : 'bar',
+        onclick: function (d, i) { console.log("onclick", d, i); },
+        onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+        onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+      },
+      donut: {
+        title: "Shootings by place"
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+    //CHART 6
+    var chart = c3.generate({
+      bindto: '#killedChart',
+      data: {
+        x : 'x',
+        columns: [
+          ['x', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018'],
+          ['Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21]
+
+        ]
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+
+    //CHART 6.5
+    var chart = c3.generate({
+      bindto: '#killedInjuredIncidentsChart',
+      data: {
+        x : 'x',
+        columns: [
+          ['x', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018'],
+          ['Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+          ['Injured', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
+          ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12]
+
+        ]
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+      }
+    });
+
+
+    //CHART 7
+    var chart2 = c3.generate({
+      bindto: '#ageChart',
+      data: {
+        columns: [
+          ['6',	2],
+          ['7',	1],
+          ['9',	1],
+          ['11',	2],
+          ['12',	4],
+          ['13',	7],
+          ['14',	24],
+          ['15',	32],
+          ['16',	25],
+          ['17',	28],
+          ['18',	11],
+          ['19',	8],
+          ['20',	4],
+          ['21',	3],
+          ['22',	1],
+          ['23',	2],
+          ['28',	5],
+          ['30',	1],
+          ['32',	2],
+          ['33',	1],
+          ['38',	1],
+          ['39',	1],
+          ['41',	2],
+          ['42',	1],
+          ['44',	2],
+          ['45',	1],
+          ['47',	1],
+          ['48',	1],
+          ['49',	1],
+          ['50',	1],
+          ['53',	3],
+          ['56',	1]
+        ],
+        type: 'bar'
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
+      }
+    });
+
+
+
+    </script>
+
+
+    <!-- /End main content container -->
+  </div>
+
+
+<!-- Footer -->
+<div class="footer">
+        <p class="text-center">Footer text</p>
+        <p class="text-center">Copyright 2018 Captial News Service</p>
+</div>
+<!-- //End footer -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
