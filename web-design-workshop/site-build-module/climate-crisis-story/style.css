@@ -229,13 +229,30 @@ p{
 
 /* RESPONSIVE */
 
+
+@media(max-width:800px) {
+.hero-hed {
+  font-size:3em;
+}
+
+}
+
+
 @media(max-width:550px) {
+  .hero-hed {
+    font-size:1.5em;
+  }
+
   p {
     padding-left:20px;
     padding-right:10px;
   }
 
   .chapter-head {
+    font-size:1.25em;
+  }
+
+  .intro-text {
     font-size:1.25em;
   }
 
@@ -249,7 +266,12 @@ p{
   }
 
   .quote {
+    display:none;
     font-size:1em;
   }
+
+.text-box {
+  width:100%;
+}
 
 }
