@@ -1,0 +1,174 @@
+BODY {
+  font-family: 'PT Serif', serif;
+}
+
+
+.container {
+  text-align:center;
+}
+
+p{
+  text-align:left;
+  line-height:180%;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.hed {
+  font-size:3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.chapter-head {
+  font-size:2em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:20px;
+  font-weight:700;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  height:100%;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff
+}
+
+/* Top hat */
+
+.nav-logo {
+  color:#fff;
+  margin:0 auto;
+  font-weight: 700;
+  text-transform:uppercase;
+}
+
+.red {
+  color:#f23030;
+}
+
+.bg-dark {
+  background:#000 !important;
+}
+
+
+/* Splash */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image{
+    width:100%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  width:100%;
+  top: 20%;
+  background:#000;
+  opacity:.7;
+}
+
+
+.hero-hed{
+  padding-top:10px;
+  margin:0 auto;
+  font-size:6em;
+  font-family: 'Playfair Display', serif;
+  padding-bottom:10px;
+  color:#fff;
+}
+
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size:.25em;
+}
+
+
+/* Pull quotes */
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  color: #F23030;
+  font-size:3em;
+  font-weight:700;
+  text-align: left;
+  padding: 15px 0 15px 0;
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+
+.quote-attribution {
+  font-size:.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+  text-align:left;
+  color:#000;
+}
+
+/* Media Queries */
+
+@media(max-width:550px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-hed {
+  font-size:1.5em;
+}
+
+}
